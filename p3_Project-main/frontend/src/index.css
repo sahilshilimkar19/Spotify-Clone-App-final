@@ -1,0 +1,105 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #E4E4E4;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Add gradient background */
+body {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(35, 35, 35, 0.8));
+}
+
+/* Code styling */
+code {
+  font-family: 'Courier New', monospace;
+  background-color: #2e2e2e;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  color: #f1f1f1;
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #1E1E1E;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Navigation */
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-right: 1.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #E4E4E4;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #1DB954; /* Spotify Green */
+}
+
+/* Main Container */
+.main-container {
+  padding: 2rem;
+}
+
+/* Button Styling */
+button {
+  background-color: #1DB954;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1AA34A;
+}
+
+/* Links */
+a {
+  color: #1DB954;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #1E1E1E;
+  color: #B3B3B3;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
